@@ -9,7 +9,7 @@ export default function Header() {
           <div className="logo">
             <h2>
               <a href="#" className="home">
-                Bac 2024
+                Ease Learn
               </a>
             </h2>
           </div>
