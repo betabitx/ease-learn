@@ -1,5 +1,5 @@
 import "../styles/hero.css";
-import studyImg from "../assets/study.jpg";
+import studyImg from "../assets/study.png";
 
 export default function Hero() {
   return (
@@ -8,7 +8,9 @@ export default function Hero() {
         <div className="hero_wrapper">
           <div className="hero_content">
             <div>
-              <h2>Welcome To Ease Learn</h2>
+              <h2>
+                Welcome To <span className="highlight"></span>Ease Learn
+              </h2>
               <h2>Your resource to prepare to your</h2>
               <h2 className="highlight">Bac Exams</h2>
             </div>
