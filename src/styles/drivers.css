@@ -18,7 +18,7 @@
   border-radius: 0.5rem;
 }
 
-.drivers_icon {
+/* .drivers_icon {
   width: 60px;
   height: 60px;
   display: flex;
@@ -29,7 +29,7 @@
   border-radius: 5px;
   margin-bottom: 30px;
   border: 1px solid var(--primary-color);
-}
+} */
 
 .drivers_icon img {
   color: aliceblue;
@@ -40,4 +40,9 @@
 .drivers_title {
   color: var(--primary-color);
   font-size: 1.3rem;
+}
+
+.drivers_title:hover {
+  color: aliceblue;
+  transition: 0.5s;
 }
