@@ -1,4 +1,4 @@
-import { driversData } from "../../../lib/drivers";
+import { TmDriversData } from "../../../lib/drivers";
 import "../../../styles/drivers.css";
 
 export default function TechnicalMathDrivers() {
@@ -9,7 +9,7 @@ export default function TechnicalMathDrivers() {
           <h6 className="subtitle">Technical Math Drivers</h6>
         </div>
         <div className="drivers_item-wrapper">
-          {driversData.map((item, index) => (
+          {TmDriversData.map((item, index) => (
             <div className="drivers_item" key={index}>
               <span className="drivers_icon">
                 {/* <img src={item.icon} height={65} width={65} alt="Images" /> */}
