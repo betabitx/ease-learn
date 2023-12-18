@@ -2,6 +2,8 @@ import "../styles/hero.css";
 import studyImg from "../assets/study.png";
 
 export default function Hero() {
+  const linkTo = "https://yasser.is-a.dev";
+
   return (
     <section className="hero_section">
       <div className="container">
@@ -16,14 +18,10 @@ export default function Hero() {
             </div>
             <p className="description">
               Made by{" "}
-              <a href="" className="highlight">
+              <a href={linkTo} className="highlight" target="_blank">
                 Yasser Fedsi
               </a>
             </p>
-            <div className="hero_btns">
-              <button className="primary_btn">Drivers</button>
-              <button className="secondary_btn">Youtube Channels</button>
-            </div>
           </div>
           <div className="hero_img">
             <img src={studyImg} alt="" />

@@ -22,37 +22,16 @@
 
 .hero_content p {
   margin-top: 40px;
-  font-size: 1.1rem;
+  font-size: 1.8rem;
+}
+
+.hero_content a:hover {
+  transition: 0.5s;
+  color: #ffb233;
 }
 
 .highlight {
   color: var(--primary-color);
-}
-
-.hero_btns {
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-  column-gap: 2rem;
-}
-
-.primary_btn,
-.secondary_btn {
-  padding: 0.8rem 1.5rem;
-  border: none;
-  outline: none;
-  color: #fff;
-  border-radius: 0.2rem;
-  cursor: pointer;
-}
-
-.primary_btn {
-  background: var(--btn-secondary-bg);
-  border: 1px solid var(--btn-primary-bg);
-}
-
-.secondary_btn {
-  background: var(--btn-primary-bg);
 }
 
 @media only screen and (max-width: 992px) {
