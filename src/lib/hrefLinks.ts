@@ -7,12 +7,4 @@ export const hrefLinks = [
     name: "Drivers",
     path: "#drivers",
   },
-  {
-    name: "Channels",
-    path: "#channels",
-  },
-  {
-    name: "About Me",
-    path: "#about",
-  },
 ];
