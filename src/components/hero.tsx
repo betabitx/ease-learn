@@ -5,7 +5,7 @@ export default function Hero() {
   const linkTo = "https://yasser.is-a.dev";
 
   return (
-    <section className="hero_section">
+    <section className="hero_section" id="home">
       <div className="container">
         <div className="hero_wrapper">
           <div className="hero_content">
