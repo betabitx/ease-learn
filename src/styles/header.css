@@ -32,6 +32,11 @@
   color: var(--primary-color);
 }
 
+.logo h2 a:hover {
+  transition: 1s;
+  color: #ffb233;
+}
+
 .light_mode span {
   color: rgba(255, 255, 255, 0.637);
   display: flex;
