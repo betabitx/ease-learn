@@ -1,7 +1,7 @@
 export const hrefLinks = [
   {
     name: "Home",
-    path: "#",
+    path: "#home",
   },
   {
     name: "Drivers",
