@@ -18,7 +18,7 @@
   border-radius: 0.5rem;
 }
 
-/* .drivers_icon {
+.drivers_icon {
   width: 60px;
   height: 60px;
   display: flex;
@@ -28,8 +28,8 @@
   background: var(--icon-bg);
   border-radius: 5px;
   margin-bottom: 30px;
-  border: 1px solid var(--primary-color);
-} */
+  /* border: 1px solid var(--primary-color); */
+}
 
 .drivers_icon img {
   color: aliceblue;

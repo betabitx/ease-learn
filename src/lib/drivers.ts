@@ -1,33 +1,38 @@
-import PhysicsImg from "../assets/Physics.png";
+import scienceImg from "../assets/Science.jpg";
+import mathImg from "../assets/Math.jpg";
+import physicsImg from "../assets/Physics.jpg";
+import arabeImg from "../assets/Arabic.jpg";
+import philosophyImg from "../assets/Philosophy.jpg";
+import his_and_geoImg from "../assets/His&Geo.jpg";
 
 export const ScDriversData = [
   {
-    icon: "",
+    icon: scienceImg,
     title: "Science",
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: mathImg,
     title: "Maths",
     link: "https://google.com/",
   },
   {
-    icon: PhysicsImg,
+    icon: physicsImg,
     title: "Physics",
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: arabeImg,
     title: "Arab",
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: philosophyImg,
     title: "Philosophy",
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: his_and_geoImg,
     title: "H&G",
     link: "https://google.com/",
   },
@@ -35,32 +40,32 @@ export const ScDriversData = [
 
 export const MaDriversData = [
   {
-    icon: "",
+    icon: mathImg,
     title: "Maths",
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: physicsImg,
     title: "Physics",
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: scienceImg,
     title: "Science",
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: arabeImg,
     title: "Arab",
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: philosophyImg,
     title: "Philosophy",
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: his_and_geoImg,
     title: "H&G",
     link: "https://google.com/",
   },
@@ -73,27 +78,27 @@ export const TmDriversData = [
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: mathImg,
     title: "Maths",
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: physicsImg,
     title: "Physics",
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: arabeImg,
     title: "Arab",
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: philosophyImg,
     title: "Philosophy",
     link: "https://google.com/",
   },
   {
-    icon: "",
+    icon: his_and_geoImg,
     title: "H&G",
     link: "https://google.com/",
   },

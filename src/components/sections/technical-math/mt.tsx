@@ -12,7 +12,7 @@ export default function TechnicalMathDrivers() {
           {TmDriversData.map((item, index) => (
             <div className="drivers_item" key={index}>
               <span className="drivers_icon">
-                {/* <img src={item.icon} height={65} width={65} alt="Images" /> */}
+                <img src={item.icon} height={65} width={65} alt="Images" />
               </span>
               <a className="drivers_title" href={item.link} target="_blank">
                 {item.title}
