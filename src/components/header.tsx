@@ -71,15 +71,6 @@ export default function Header() {
             </ul>
           </div>
 
-          {/** ====== Light Mode ====== */}
-          {/* <div className="light_mode">
-            <span>
-              <a href="#" className="about">
-                About Me
-              </a>
-            </span>
-          </div> */}
-
           {/** ====== mobile navigation ======  */}
           <span className="mobile_menu" onClick={toggleMenu}>
             <i className="ri-menu-line"></i>
