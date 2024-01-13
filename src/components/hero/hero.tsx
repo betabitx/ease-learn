@@ -1,5 +1,5 @@
 import "./hero.css";
-import studyImg from "../assets/study.png";
+import studyImg from "../../assets/study.png";
 
 export default function Hero() {
   const linkTo = "https://yasser.is-a.dev";
