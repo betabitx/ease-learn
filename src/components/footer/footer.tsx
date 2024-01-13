@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
 
         <p className="copyright">
-          © {year}, developed by{" "}
+          © {year}, Developed by {" "}
           <a href={linkTo} target="_blank">
             Yasser Fedsi
           </a>
