@@ -1,5 +1,5 @@
 import { ScDriversData } from "../../../lib/drivers";
-import "../../../styles/drivers.css";
+import "../drivers.css";
 
 export default function ScientificDrivers() {
   return (

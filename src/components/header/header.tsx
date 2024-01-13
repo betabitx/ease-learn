@@ -1,5 +1,5 @@
-import "../styles/header.css";
-import { hrefLinks } from "../lib/hrefLinks";
+import "./header.css";
+import { hrefLinks } from "../../lib/hrefLinks";
 import { useEffect, useRef, useState } from "react";
 
 export default function Header() {

@@ -1,5 +1,5 @@
 import { TmDriversData } from "../../../lib/drivers";
-import "../../../styles/drivers.css";
+import "../drivers.css";
 
 export default function TechnicalMathDrivers() {
   return (

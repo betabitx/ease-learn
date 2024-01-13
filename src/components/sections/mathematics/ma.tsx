@@ -1,5 +1,5 @@
 import { MaDriversData } from "../../../lib/drivers";
-import "../../../styles/drivers.css";
+import "../drivers.css";
 
 export default function MathematicsDrivers() {
   return (
