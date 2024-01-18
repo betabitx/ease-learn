@@ -1,11 +1,17 @@
+interface Drivers {
+  icon: string;
+  title: string;
+  link: string;
+}
+
 import scienceImg from "../assets/Science.jpg";
 import mathImg from "../assets/Math.jpg";
 import physicsImg from "../assets/Physics.jpg";
-import arabeImg from "../assets/Arabic.jpg";
+import arabicImg from "../assets/Arabic.jpg";
 import philosophyImg from "../assets/Philosophy.jpg";
 import his_and_geoImg from "../assets/His&Geo.jpg";
 
-export const ScDriversData = [
+export const ScDriversData: Drivers[] = [
   {
     icon: scienceImg,
     title: "Science",
@@ -22,8 +28,8 @@ export const ScDriversData = [
     link: "https://google.com/",
   },
   {
-    icon: arabeImg,
-    title: "Arab",
+    icon: arabicImg,
+    title: "Arabic",
     link: "https://google.com/",
   },
   {
@@ -38,7 +44,7 @@ export const ScDriversData = [
   },
 ];
 
-export const MaDriversData = [
+export const MaDriversData: Drivers[] = [
   {
     icon: mathImg,
     title: "Maths",
@@ -55,8 +61,8 @@ export const MaDriversData = [
     link: "https://google.com/",
   },
   {
-    icon: arabeImg,
-    title: "Arab",
+    icon: arabicImg,
+    title: "Arabic",
     link: "https://google.com/",
   },
   {
@@ -71,7 +77,7 @@ export const MaDriversData = [
   },
 ];
 
-export const TmDriversData = [
+export const TmDriversData: Drivers[] = [
   {
     icon: "",
     title: "Technologie",
@@ -88,8 +94,8 @@ export const TmDriversData = [
     link: "https://google.com/",
   },
   {
-    icon: arabeImg,
-    title: "Arab",
+    icon: arabicImg,
+    title: "Arabic",
     link: "https://google.com/",
   },
   {
