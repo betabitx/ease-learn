@@ -1,8 +1,3 @@
-interface hrefLinksProps {
-  name: string;
-  path: string;
-}
-
 export const hrefLinks: hrefLinksProps[] = [
   {
     name: "Home",

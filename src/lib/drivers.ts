@@ -1,9 +1,3 @@
-interface Drivers {
-  icon: string;
-  title: string;
-  link: string;
-}
-
 import scienceImg from "../assets/Science.jpg";
 import mathImg from "../assets/Math.jpg";
 import physicsImg from "../assets/Physics.jpg";
@@ -11,7 +5,7 @@ import arabicImg from "../assets/Arabic.jpg";
 import philosophyImg from "../assets/Philosophy.jpg";
 import his_and_geoImg from "../assets/His&Geo.jpg";
 
-export const ScDriversData: Drivers[] = [
+export const ScDriversData: driversProps[] = [
   {
     icon: scienceImg,
     title: "Science",
@@ -44,7 +38,7 @@ export const ScDriversData: Drivers[] = [
   },
 ];
 
-export const MaDriversData: Drivers[] = [
+export const MaDriversData: driversProps[] = [
   {
     icon: mathImg,
     title: "Maths",
@@ -77,7 +71,7 @@ export const MaDriversData: Drivers[] = [
   },
 ];
 
-export const TmDriversData: Drivers[] = [
+export const TmDriversData: driversProps[] = [
   {
     icon: "",
     title: "Technologie",
