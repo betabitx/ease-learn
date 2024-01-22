@@ -103,3 +103,26 @@ export const TmDriversData: driversProps[] = [
     link: "https://google.com/",
   },
 ];
+
+export const phDriversData: driversProps[] = [
+  {
+    icon: mathImg,
+    title: "Maths",
+    link: "https://google.com/",
+  },
+  {
+    icon: arabicImg,
+    title: "Arabic",
+    link: "https://google.com/",
+  },
+  {
+    icon: philosophyImg,
+    title: "Philosophy",
+    link: "https://google.com/",
+  },
+  {
+    icon: his_and_geoImg,
+    title: "H&G",
+    link: "https://google.com/",
+  },
+];
