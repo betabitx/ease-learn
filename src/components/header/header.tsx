@@ -3,6 +3,7 @@ import { hrefLinks } from "../../lib/hrefLinks";
 import { useEffect, useRef, useState } from "react";
 
 export default function Header() {
+  const contributeLink: string = "https://google.com/";
   const headerRef = useRef<HTMLDivElement>(null);
   const menuRef = useRef<HTMLDivElement>(null);
   const [headerShrink, setHeaderShrink] = useState(false);
@@ -70,6 +71,13 @@ export default function Header() {
               ))}
             </ul>
           </div>
+
+          {/** Contribue Button  */}
+          <span>
+            <a href={contributeLink} target="_blank" className="contribute_btn">
+              Contribute
+            </a>
+          </span>
 
           {/** ====== mobile navigation ======  */}
           <span className="mobile_menu" onClick={toggleMenu}>
