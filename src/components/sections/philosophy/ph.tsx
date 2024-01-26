@@ -3,7 +3,7 @@ import "../drivers.css";
 
 export default function PhilosphyDrivers() {
   return (
-    <section id="drivers">
+    <section id="drivers" hidden>
       <div className="container">
         <div className="drivers_top-content">
           <h6 className="subtitle">Art and Philosophy</h6>
