@@ -72,7 +72,7 @@ export default function Header() {
             </ul>
           </div>
 
-          {/** Contribue Button  */}
+          {/** Contribute Button  */}
           <span>
             <a href={contributeLink} target="_blank" className="contribute_btn">
               Contribute
