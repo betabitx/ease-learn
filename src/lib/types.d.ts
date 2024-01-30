@@ -1,9 +1,9 @@
-interface hrefLinksProps {
+declare interface hrefLinksProps {
   name: string;
   path: string;
 }
 
-interface driversProps {
+declare interface driversProps {
   icon: string;
   title: string;
   link: string;
