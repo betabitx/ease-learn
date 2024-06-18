@@ -1,9 +1,8 @@
 import "./hero.css";
 import studyImg from "../../assets/study.png";
+import { linkTo } from "../../lib/hrefLinks";
 
 export default function Hero() {
-  const linkTo = "https://yasser.is-a.dev";
-
   return (
     <section className="hero_section" id="home">
       <div className="container">

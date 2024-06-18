@@ -8,3 +8,5 @@ export const hrefLinks: hrefLinksProps[] = [
     path: "#drivers",
   },
 ];
+
+export const linkTo = "https://yasser.is-a.dev";
