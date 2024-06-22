@@ -1,9 +1,8 @@
 import "./header.css";
-import { hrefLinks } from "../../lib/hrefLinks";
+import { contributeHref, hrefLinks } from "../../lib/links";
 import { useEffect, useRef, useState } from "react";
 
 export default function Header() {
-  const contributeLink: string = "https://google.com/";
   const headerRef = useRef<HTMLDivElement>(null);
   const menuRef = useRef<HTMLDivElement>(null);
   const [headerShrink, setHeaderShrink] = useState(false);
@@ -74,9 +73,16 @@ export default function Header() {
 
           {/** Contribute Button  */}
           <span>
-            <a href={contributeLink} target="_blank" className="contribute_btn">
-              Contribute
-            </a>
+            {contributeHref.map((item, index) => (
+              <a
+                href={item.link}
+                key={index}
+                className="contribute_btn"
+                target="_blank"
+              >
+                {item.name}
+              </a>
+            ))}
           </span>
 
           {/** ====== mobile navigation ======  */}
