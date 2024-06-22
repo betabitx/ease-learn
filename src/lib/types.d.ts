@@ -8,3 +8,8 @@ declare interface driversProps {
   title: string;
   link: string;
 }
+
+declare interface contributeHref {
+  name: string
+  link: string
+}
