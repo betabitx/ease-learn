@@ -1,6 +1,6 @@
 import "./hero.css";
 import studyImg from "../../assets/study.png";
-import { linkTo } from "../../lib/hrefLinks";
+import { linkTo } from "../../lib/links";
 
 export default function Hero() {
   return (
