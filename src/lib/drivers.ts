@@ -126,3 +126,11 @@ export const phDriversData: driversProps[] = [
     link: "https://google.com/",
   },
 ];
+
+export const lgDriversData: driversProps[] = [
+  {
+    icon: mathImg,
+    title: "Maths",
+    link: ""
+  }
+]

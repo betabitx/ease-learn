@@ -7,6 +7,7 @@ import TechnicalMathDrivers from "./components/sections/technical-math/mt";
 import ScientificDrivers from "./components/sections/science/sc";
 import Footer from "./components/footer/footer";
 import PhilosphyDrivers from "./components/sections/philosophy/ph";
+import LG from "./components/sections/lg-et/lg";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <MathematicsDrivers />
       <TechnicalMathDrivers />
       <PhilosphyDrivers />
+      <LG />
       <Footer />
     </BrowserRouter>
   );
